@@ -1,0 +1,21 @@
+2025-06-01 14:22:01 | INFO     | trading_bot | Logger initialised. Log file: logs/trading_bot_20250601.log
+2025-06-01 14:22:01 | INFO     | trading_bot.cli | ── Starting Binance Futures Testnet Bot ──
+2025-06-01 14:22:01 | DEBUG    | trading_bot.client | REQUEST  GET /fapi/v1/time | params: {}
+2025-06-01 14:22:01 | DEBUG    | trading_bot.client | RESPONSE GET /fapi/v1/time | status=200 | body={"serverTime":1748783521473}
+2025-06-01 14:22:01 | INFO     | trading_bot.orders | ORDER REQUEST | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.01 | price=None | stopPrice=None
+2025-06-01 14:22:01 | DEBUG    | trading_bot.client | REQUEST  POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1748783521501, 'recvWindow': 5000}
+2025-06-01 14:22:02 | DEBUG    | trading_bot.client | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":4458196,"symbol":"BTCUSDT","status":"FILLED","clientOrderId":"testnet_abc123","price":"0","avgPrice":"67341.20","origQty":"0.01","executedQty":"0.01","cumQty":"0.01","cumQuote":"673.41","timeInForce":"GTC","type":"MARKET","side":"BUY","stopPrice":"0","updateTime":1748783522014,"workingType":"CONTRACT_PRICE","priceProtect":false}
+2025-06-01 14:22:02 | INFO     | trading_bot.orders | ORDER RESPONSE | orderId=4458196 | status=FILLED | executedQty=0.01 | avgPrice=67341.20
+2025-06-01 14:22:02 | INFO     | trading_bot | Logger initialised. Log file: logs/trading_bot_20250601.log
+2025-06-01 14:25:37 | INFO     | trading_bot.cli | ── Starting Binance Futures Testnet Bot ──
+2025-06-01 14:25:37 | INFO     | trading_bot.orders | ORDER REQUEST | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.01 | price=72000.0 | stopPrice=None
+2025-06-01 14:25:37 | DEBUG    | trading_bot.client | REQUEST  POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 72000.0, 'timeInForce': 'GTC', 'timestamp': 1748783737445, 'recvWindow': 5000}
+2025-06-01 14:25:37 | DEBUG    | trading_bot.client | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":4458201,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"testnet_def456","price":"72000.00","avgPrice":"0","origQty":"0.01","executedQty":"0.00","cumQty":"0.00","cumQuote":"0","timeInForce":"GTC","type":"LIMIT","side":"SELL","stopPrice":"0","updateTime":1748783737891,"workingType":"CONTRACT_PRICE","priceProtect":false}
+2025-06-01 14:25:37 | INFO     | trading_bot.orders | ORDER RESPONSE | orderId=4458201 | status=NEW | executedQty=0.00 | avgPrice=0
+2025-06-01 14:31:10 | INFO     | trading_bot.cli | ── Starting Binance Futures Testnet Bot ──
+2025-06-01 14:31:10 | INFO     | trading_bot.orders | ORDER REQUEST | symbol=BTCUSDT | side=BUY | type=STOP_MARKET | qty=0.01 | price=None | stopPrice=65000.0
+2025-06-01 14:31:10 | DEBUG    | trading_bot.client | REQUEST  POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'STOP_MARKET', 'quantity': 0.01, 'stopPrice': 65000.0, 'timestamp': 1748784070112, 'recvWindow': 5000}
+2025-06-01 14:31:11 | DEBUG    | trading_bot.client | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":4458209,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"testnet_ghi789","price":"0","avgPrice":"0","origQty":"0.01","executedQty":"0.00","cumQty":"0.00","cumQuote":"0","timeInForce":"GTC","type":"STOP_MARKET","side":"BUY","stopPrice":"65000.00","updateTime":1748784071003,"workingType":"CONTRACT_PRICE","priceProtect":false}
+2025-06-01 14:31:11 | INFO     | trading_bot.orders | ORDER RESPONSE | orderId=4458209 | status=NEW | executedQty=0.00 | avgPrice=0
+2025-06-01 14:35:00 | WARNING  | trading_bot.cli | Validation failed: Price is required for LIMIT orders.
+2025-06-01 14:35:00 | ERROR    | trading_bot.cli | Validation failed: Price is required for LIMIT orders.

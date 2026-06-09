@@ -1,0 +1,3 @@
+2026-06-02 16:22:53 | INFO     | trading_bot.client | Logger initialised. Log file: /home/claude/trading_bot/logs/trading_bot_20260602.log
+2026-06-02 16:22:53 | INFO     | trading_bot.orders | Logger initialised. Log file: /home/claude/trading_bot/logs/trading_bot_20260602.log
+2026-06-02 16:22:53 | INFO     | trading_bot.cli | Logger initialised. Log file: /home/claude/trading_bot/logs/trading_bot_20260602.log

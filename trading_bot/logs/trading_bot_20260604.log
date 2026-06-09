@@ -1,0 +1,28 @@
+2026-06-04 19:47:44 | INFO     | trading_bot.client | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:47:44 | INFO     | trading_bot.orders | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:47:44 | INFO     | trading_bot.cli | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:50:13 | INFO     | trading_bot.client | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:50:13 | INFO     | trading_bot.orders | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:50:13 | INFO     | trading_bot.cli | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:50:13 | INFO     | trading_bot.orders | ORDER REQUEST | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.01 | price=None | stopPrice=None
+2026-06-04 19:50:13 | DEBUG    | trading_bot.client | REQUEST  POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1780582813075, 'recvWindow': 5000}
+2026-06-04 19:50:15 | DEBUG    | trading_bot.client | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":14213275436,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"VX7bJH7e60HW1BPQNc6Lth","price":"0.00","avgPrice":"0.00","origQty":"0.0100","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"MARKET","reduceOnly":false,"closePosition":false,"side":"BUY","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"MARKET","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1780582815723}
+2026-06-04 19:50:15 | INFO     | trading_bot.orders | ORDER RESPONSE | orderId=14213275436 | status=NEW | executedQty=0.0000 | avgPrice=0.00
+2026-06-04 19:50:33 | INFO     | trading_bot.client | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:50:33 | INFO     | trading_bot.orders | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:50:33 | INFO     | trading_bot.cli | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:50:33 | INFO     | trading_bot.orders | ORDER REQUEST | symbol=BTCUSDT | side=SELL | type=LIMIT | qty=0.01 | price=72000.0 | stopPrice=None
+2026-06-04 19:50:33 | DEBUG    | trading_bot.client | REQUEST  POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 72000.0, 'timeInForce': 'GTC', 'timestamp': 1780582833415, 'recvWindow': 5000}
+2026-06-04 19:50:34 | DEBUG    | trading_bot.client | RESPONSE POST /fapi/v1/order | status=200 | body={"orderId":14213291357,"symbol":"BTCUSDT","status":"NEW","clientOrderId":"zg4yQhksy9Bc80Zsm65TmQ","price":"72000.00","avgPrice":"0.00","origQty":"0.0100","executedQty":"0.0000","cumQty":"0.0000","cumQuote":"0.000000","timeInForce":"GTC","type":"LIMIT","reduceOnly":false,"closePosition":false,"side":"SELL","positionSide":"BOTH","stopPrice":"0.00","workingType":"CONTRACT_PRICE","priceProtect":false,"origType":"LIMIT","priceMatch":"NONE","selfTradePreventionMode":"EXPIRE_MAKER","goodTillDate":0,"updateTime":1780582835479}
+2026-06-04 19:50:34 | INFO     | trading_bot.orders | ORDER RESPONSE | orderId=14213291357 | status=NEW | executedQty=0.0000 | avgPrice=0.00
+2026-06-04 19:50:48 | INFO     | trading_bot.client | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:50:48 | INFO     | trading_bot.orders | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:50:48 | INFO     | trading_bot.cli | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:50:48 | INFO     | trading_bot.orders | ORDER REQUEST | symbol=BTCUSDT | side=BUY | type=MARKET | qty=0.01 | price=None | stopPrice=None
+2026-06-04 19:50:48 | DEBUG    | trading_bot.client | REQUEST  POST /fapi/v1/order | params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1780582848745, 'recvWindow': 5000}
+2026-06-04 19:50:50 | DEBUG    | trading_bot.client | RESPONSE POST /fapi/v1/order | status=401 | body={"code":-2014,"msg":"API-key format invalid."}
+2026-06-04 19:50:50 | ERROR    | trading_bot.cli | Binance API error [-2014]: API-key format invalid.
+2026-06-04 19:51:40 | INFO     | trading_bot.client | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:51:40 | INFO     | trading_bot.orders | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:51:40 | INFO     | trading_bot.cli | Logger initialised. Log file: C:\Users\VRAJ\Downloads\trading_bot_submission\trading_bot\logs\trading_bot_20260604.log
+2026-06-04 19:51:40 | ERROR    | trading_bot.cli | Validation failed: Price is required for LIMIT orders.
